@@ -1,0 +1,70 @@
+:root{
+    --primary: #282f4b;
+    --secondary: #566981;
+    --third: #89a7b1;
+    --text-color: #cbdad5;
+}
+
+*{
+    font-family: "Lato", sans-serif;
+}
+
+header{
+    background-color: var(--primary)
+}
+
+#button-active{
+    background-color: var(--secondary);
+}
+
+.nav-link{
+    color: var(--text-color) ;
+}
+
+.nav-link:hover{
+    color: #ffffff ;
+}
+
+#app{
+    color: #0b0bb2;
+}
+
+#resume-button{
+    background-color: var(--primary);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#resume-button:hover{
+    background-color: var(--secondary);
+    color: #ffffff;
+}
+
+.habilities{
+    background-color: var(--secondary);
+    color: #ffffff;
+}
+
+.project-btn{
+    background-color: var(--secondary);
+}
+
+.project-btn:hover{
+    background-color: var(--third);
+}
+
+.project-btn a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact-btn{
+    background-color: var(--third);
+    border: none;
+}
+
+.contact-btn:hover{
+    background-color: var(--secondary);
+    border: none;
+}
